@@ -46,5 +46,8 @@ client.post('statuses/update', {in_reply_to_status_id: id_str,
     });
 ```
 
+##Launch it
+`node twitbot.js`
+
 ##More documentation
 https://github.com/ttezel/twit
