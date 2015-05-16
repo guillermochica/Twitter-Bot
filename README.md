@@ -6,10 +6,14 @@ A mini how to do a simple twitter bot.
 
 Or download it from the web: https://nodejs.org/download/
 
-##Install npm
+##Install npm and twitter module
 Npm is the node packet manager and it contains the twitter module that we are going to use
 
 `sudo apt-get install npm`
+
+Install the twitter module:
+
+`sudo npm twitter`
 
 ##Clone this repository
 https://github.com/guillermochica/Twitter-Bot/archive/master.zip
