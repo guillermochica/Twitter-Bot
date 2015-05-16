@@ -39,7 +39,7 @@ Change the content of the reply (the `status` line):
 
 ```javascript
 client.post('statuses/update', {in_reply_to_status_id: id_str,
-      status: '@' + screen_name + ' This bot is absolutely useless, sorry dude.'},
+      status: '@' + screen_name + ' Todos decían que no, cuando dijo que sí Bolivia.'},
      function(error, tweet, response){
         if(error) throw error;
         console.log(tweet);  // Tweet body
