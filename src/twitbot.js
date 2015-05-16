@@ -10,7 +10,7 @@ var client = new Twitter(keys);
 var word = 'github';
 //Variables to store the twitter user id and screen name to make a reply
 var id_str, screen_name;
-//The status that we want to post in the reply
+
 
 client.stream('statuses/filter', {track: word}, function(stream) {
   console.log('Bot started looking for the word ' + word + '.');
